@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Atividade 1
 
 O trecho mostra a diferença de percepção entre ser um "programador" e um "engenheiro de software". Enquanto o programador é visto como alguém que apenas escreve código, o engenheiro de software é reconhecido por pensar de forma mais ampla e estruturada, como outros ramos da engenharia. Além disso, o engenheiro se preocupa com a manutenção, escalabilidade e sustentabilidade do código ao longo do tempo.
@@ -11,3 +12,6 @@ Facilidade de Uso vs. Flexibilidade: Sistemas mais fáceis de usar tendem a ser 
 
 
 Desempenho vs. Segurança: Implementar altos níveis de segurança pode impactar a velocidade do sistema. É importante encontrar um equilíbrio que atenda às necessidades do projeto.
+=======
+# bertoti
+>>>>>>> 5488ce345a49d55f18860ba755f4058209d76ed6
