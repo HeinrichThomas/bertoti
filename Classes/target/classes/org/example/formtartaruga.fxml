@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d5fce6;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.tartarugacontroller">
+   <children>
+      <Label layoutX="90.0" layoutY="109.0" text="Idade">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="81.0" layoutY="171.0" text="Nome">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="236.0" text="Velocidade">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtidade" layoutX="185.0" layoutY="117.0" prefHeight="32.0" prefWidth="173.0" />
+      <TextField fx:id="txtnome" layoutX="185.0" layoutY="179.0" prefHeight="32.0" prefWidth="173.0" />
+      <TextField fx:id="txtvelocidade" layoutX="185.0" layoutY="244.0" prefHeight="32.0" prefWidth="173.0" />
+      <Label layoutX="374.0" layoutY="105.0" text="Status">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="txtresultado" layoutX="369.0" layoutY="144.0" prefHeight="117.0" prefWidth="222.0" />
+      <Button fx:id="btdefender" layoutX="215.0" layoutY="318.0" mnemonicParsing="false" onAction="#defender" style="-fx-background-color: #2eee7a;" text="Defender">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="andar" layoutX="303.0" layoutY="318.0" mnemonicParsing="false" onAction="#andar" style="-fx-background-color: #2eee7a;" text="Andar">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Rectangle fill="#1fff6c" height="68.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+      <Rectangle fill="#1fff6c" height="25.0" layoutY="375.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="600.0" />
+   </children>
+</AnchorPane>

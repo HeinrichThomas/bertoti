@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #FFFAF0;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.raposacontroller">
+   <children>
+      <Label layoutX="73.0" layoutY="101.0" text="Idade">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="17.0" layoutY="177.0" text="Agilidade">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="254.0" text="Audição">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtidade" layoutX="171.0" layoutY="106.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtagilidade" layoutX="171.0" layoutY="182.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtaudicao" layoutX="171.0" layoutY="259.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <Button fx:id="btesconder" layoutX="206.0" layoutY="331.0" mnemonicParsing="false" onAction="#esconder" prefHeight="25.0" prefWidth="82.0" style="-fx-background-color: #ff6600;" text="Esconder" textFill="#4a2100">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <TextArea fx:id="txtresultado" layoutX="417.0" layoutY="140.0" prefHeight="124.0" prefWidth="168.0">
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></TextArea>
+      <Label layoutX="419.0" layoutY="97.0" text="Status">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Rectangle fill="#e87422" height="58.0" layoutX="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="612.0" />
+      <Rectangle fill="#e87422" height="19.0" layoutX="-2.0" layoutY="381.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="612.0" />
+      <Button fx:id="btouvir" layoutX="301.0" layoutY="331.0" mnemonicParsing="false" onAction="#ouvir" prefHeight="25.0" prefWidth="82.0" style="-fx-background-color: #ff6600;" text="Ouvir" textFill="#4a2100">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #e3e8e6;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.lemurecontroller">
+   <children>
+      <Label layoutX="82.0" layoutY="103.0" text="Idade">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="236.0" text="Agilidade">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="170.0" text="Nome">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtidade" layoutX="173.0" layoutY="110.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtnome" layoutX="173.0" layoutY="179.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="txtagilidade" layoutX="173.0" layoutY="245.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+      <TextArea fx:id="txtresultado" layoutX="365.0" layoutY="137.0" prefHeight="133.0" prefWidth="200.0" />
+      <Label layoutX="366.0" layoutY="93.0" text="Status">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="btsaltar" layoutX="225.0" layoutY="314.0" mnemonicParsing="false" onAction="#saltar" style="-fx-background-color: #54635d;" text="Saltar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="btgritar" layoutX="302.0" layoutY="314.0" mnemonicParsing="false" onAction="#gritar" style="-fx-background-color: #54635d;" text="gritar" textFill="WHITE">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Button>
+      <Rectangle fill="#8b8f94" height="69.0" layoutY="-6.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="601.0" />
+      <Rectangle fill="#8b8f94" height="30.0" layoutY="370.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="601.0" />
+   </children>
+</AnchorPane>
